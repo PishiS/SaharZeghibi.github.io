@@ -1,15 +1,13 @@
-/* تنظیمات کلی */
 body {
     font-family: 'Tahoma', sans-serif;
-    background-color: #ffffff; /* پس‌زمینه سفید */
-    color: #333333; /* متن مشکی تیره */
+    background-color: #ffffff;
+    color: #333333;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     direction: rtl;
 }
 
-/* طراحی رزومه */
 .resume {
     max-width: 850px;
     margin: 40px auto;
@@ -19,7 +17,6 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* هدر رزومه */
 header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +25,6 @@ header {
     flex-wrap: wrap;
 }
 
-/* اطلاعات شخصی */
 .personal-info {
     display: flex;
     align-items: center;
@@ -42,25 +38,24 @@ header {
     height: 120px;
     border-radius: 50%;
     margin-right: 30px;
-    border: 3px solid #bbb; /* حاشیه خاکی روشن */
+    border: 3px solid #bbb; 
     object-fit: cover;
 }
 
 
 .details h1 {
     font-size: 26px;
-    color: #333333; /* رنگ متن مشکی تیره */
+    color: #333333; 
     margin: 0;
     padding-bottom: 10px;
 }
 
 .details p {
     font-size: 14px;
-    color: #666666; /* رنگ خاکی برای جزئیات */
+    color: #666666; 
     margin: 5px 0;
     }
 
-/* اطلاعات تماس */
 .contact-info {
     width: 25%;
     text-align: right;
@@ -68,30 +63,29 @@ header {
 
 .contact-info p {
     font-size: 14px;
-    color: #666666; /* رنگ خاکی برای جزئیات */
+    color: #666666;
     margin-bottom: 10px;
 }
 
-/* بخش‌های رزومه */
 .section {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #f9f9f9; /* پس‌زمینه کادرها کمی تیره‌تر از سفید */
+    background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .section h2 {
     font-size: 22px;
-    color: #444444; /* رنگ مشکی تیره برای عنوان‌ها */
-    border-bottom: 2px solid #ccc; /* خط زیر عنوان خاکی روشن */
+    color: #444444;
+    border-bottom: 2px solid #ccc; 
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
 
 .section p, .section ul {
     font-size: 15px;
-    color: #444444; /* رنگ خاکی تیره برای متن */
+    color: #444444; 
     margin: 0;
 }
 
@@ -103,7 +97,7 @@ header {
     margin-bottom: 8px;
 }
 
-/* موبایل و تبلت */
+
 @media (max-width: 768px) {
     .resume {
         padding: 20px;
